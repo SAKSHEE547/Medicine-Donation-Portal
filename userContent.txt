@@ -1,0 +1,64 @@
+1)user info table
+    --> user_id
+    --> user_fname
+    --> user_lname
+    --> user_email
+    --> user_mobile
+    --> user_role
+    --> user_password
+    --> created_date
+    --> updated_date
+    --> user_status
+
+2)master_Ngo list table
+
+    --> ngo_id
+    --> ngo_name
+    --> ngo_decsription
+    --> ngo_payment_id
+    --> ngo_address
+     --> created_date
+    --> updated_date
+    --> ngo_status
+
+3)Madicine donated table
+    --> ngo_id
+    --> ngo_name
+    --> ngo_decsription
+
+4)fund donated table
+    -->user_id
+    -->amount
+    -->ngo_id to be donated
+
+5)Master role table
+    ex;-  Doner,volunteer,admin,ngo
+    --> role_id
+    --> role_name
+    --> role_description
+     --> created_date
+    --> updated_date
+
+6)user Donation details
+    --> user_id
+    --> ngo_id to be donated
+    --> donataion_type ex:- money,medicine
+    --> medicine_img
+    --> medicine_expairy_date
+    --> medicine name
+    --> amount
+     --> created_date
+    --> updated_date
+
+7)Master donataion_type
+    --> donataion_type_id
+    --> donataion_type 
+     --> created_date
+    --> updated_date
+
+8) admin_dashboard
+    --> Login
+    --> user_list
+    --> ngo_list
+    --> roles
+    --> donation_details
